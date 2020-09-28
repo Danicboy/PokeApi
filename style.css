@@ -1,0 +1,194 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background: #CACACA;
+  margin: 0;
+  padding: 0;
+}
+
+/* Seccion header */
+.container-header {
+  margin: 0px 0px 20px 0px;
+  background: #FF4A4A;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.container-header h1 {
+  margin: 0;
+  color: white;
+}
+
+/* Seccion Content */
+.container-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 10px 10px 10px 10px;
+}
+
+.content {
+  margin: 10px 20px 20px 20px;
+  padding-top: 10px;
+  background: #FF4A4A;
+  /* width: 20%; */
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.content:hover{
+  transform: scale(1.05);
+}
+
+.content h2 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contet-paragraph {
+  margin: 0px 0px 20px 0px;
+}
+
+.content p {
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  margin: 0;
+  font-size: 20px;
+
+}
+
+.content-image {
+  background: #979797;
+  padding: 20px 10px 20px 10px;
+}
+
+.content-image img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+}
+
+.content a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding: 15px 20px 15px 20px;
+  font-size: 20px;
+  color: white;
+  background: #979797;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.content a:hover {
+  background: #7B7B7B;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background: #FF4A4A;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 0px 10px 0px 0px;
+  /* border: 1px solid #888; */
+  width: 80%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+}
+
+.modal-content-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-image {
+  height: auto;
+  width: 400px;
+  background: #979797;
+  padding: 15px 0px 15px 0px;
+  /* padding: inherit; */
+  border-radius: 10px 0px 0px 10px;
+}
+
+.modal-image img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+
+}
+
+.modal-paragraph {
+  margin-left: 30px;
+  width: 500px;
+}
+
+.modal-paragraph h2 {
+  color: white;
+  font-size: 20px;
+  font-stretch: bold;
+  text-transform: uppercase;
+}
+
+.modal-paragraph p {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.modal-paragraph #Text-Habi {
+  font-size: 13px;
+  text-align: justify;
+}
+
+.modal-otherimages {
+  padding: 10px 10px 10px 10px;
+  width: 500px;
+}
+
+.modal-imagesContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.modal-imagesContent img {
+  margin: 0px 0px 5px 0px;
+  height: 100px;
+  width: 100px;
+}
